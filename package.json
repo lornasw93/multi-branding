@@ -1,10 +1,12 @@
 {
-  "name": "white-label",
+  "name": "simple-website",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve", 
+    "start:custom": "ng serve --project=custom --c=customConfig",
     "build": "ng build",
+    "build:custom:prod": "ng build --project=custom --c=customProdConfig",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
